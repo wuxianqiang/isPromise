@@ -1,0 +1,19 @@
+{
+  "name": "is-promise-function",
+  "version": "1.0.0",
+  "description": "判断传入的参数是promise函数",
+  "main": "./index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuxianqiang/isPromise.git"
+  },
+  "author": "wuxianqiang",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1"
+  }
+}
