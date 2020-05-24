@@ -10,11 +10,10 @@ npm i is-promise-function -S
 
 ## 用法
 ```javascript
-var isPromise = require('is-promise-function');
+var isPromiseFunction = require('is-promise-function');
 
-isPromise(Promise) // false
-isPromise(Promise.resolve()) // true
-isPromise.isConstructor(Promise) // true
+isPromiseFunction(Promise) // false
+isPromiseFunction(Promise.resolve()) // true
 ```
 
 ## 开源许可
